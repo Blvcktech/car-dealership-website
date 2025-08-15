@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "name": "Toyota Camry",
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "price": 25000,
+    "mileage": 15000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Leather seats", "Bluetooth", "Backup camera"],
+    "tags": ["sedan", "reliable"],
+    "description": "Reliable sedan for daily commute with premium comfort features."
+  },
+  {
+    "id": "2",
+    "name": "Honda Civic",
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2023,
+    "price": 22000,
+    "mileage": 5000,
+    "fuelType": "gas",
+    "transmission": "manual",
+    "images": [
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Apple CarPlay", "Android Auto", "Turbo engine"],
+    "tags": ["compact", "fuel-efficient"],
+    "description": "Sporty compact car with great fuel efficiency and modern tech."
+  },
+  {
+    "id": "3",
+    "name": "Ford F-150",
+    "brand": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "price": 35000,
+    "mileage": 20000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["4x4", "Towing package", "Infotainment system"],
+    "tags": ["truck", "powerful"],
+    "description": "Powerful pickup truck for heavy-duty tasks and work."
+  },
+  {
+    "id": "4",
+    "name": "BMW 3 Series",
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2022,
+    "price": 45000,
+    "mileage": 10000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Sport suspension", "Premium audio", "Navigation"],
+    "tags": ["luxury", "sporty"],
+    "description": "Luxury sedan with dynamic performance and premium features."
+  },
+  {
+    "id": "5",
+    "name": "Mercedes-Benz C-Class",
+    "brand": "Mercedes",
+    "model": "C-Class",
+    "year": 2023,
+    "price": 50000,
+    "mileage": 8000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Panoramic sunroof", "Heated seats", "Adaptive cruise"],
+    "tags": ["luxury", "comfort"],
+    "description": "Elegant luxury sedan with advanced technology and comfort."
+  },
+  {
+    "id": "6",
+    "name": "Tesla Model 3",
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "price": 40000,
+    "mileage": 5000,
+    "fuelType": "electric",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Autopilot", "Full self-driving", "Large touchscreen"],
+    "tags": ["electric", "tech"],
+    "description": "Innovative electric sedan with cutting-edge autopilot technology."
+  },
+  {
+    "id": "7",
+    "name": "Audi A4",
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2022,
+    "price": 42000,
+    "mileage": 12000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Quattro AWD", "Virtual cockpit", "Bang & Olufsen sound"],
+    "tags": ["luxury", "AWD"],
+    "description": "Premium sedan with all-wheel drive."
+  },
+  {
+    "id": "8",
+    "name": "Volkswagen Golf",
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "year": 2021,
+    "price": 20000,
+    "mileage": 18000,
+    "fuelType": "gas",
+    "transmission": "manual",
+    "images": [
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Hatchback design", "Infotainment", "Safety features"],
+    "tags": ["hatchback", "fun"],
+    "description": "Fun-to-drive hatchback with German engineering."
+  },
+  {
+    "id": "9",
+    "name": "Chevrolet Tahoe",
+    "brand": "Chevrolet",
+    "model": "Tahoe",
+    "year": 2022,
+    "price": 55000,
+    "mileage": 10000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Third-row seating", "Towing capacity", "Entertainment system"],
+    "tags": ["SUV", "family"],
+    "description": "Spacious SUV for family adventures."
+  },
+  {
+    "id": "10",
+    "name": "Nissan Altima",
+    "brand": "Nissan",
+    "model": "Altima",
+    "year": 2023,
+    "price": 26000,
+    "mileage": 6000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["CVT transmission", "ProPILOT assist", "Comfortable interior"],
+    "tags": ["sedan", "affordable"],
+    "description": "Affordable midsize sedan with modern features."
+  },
+  {
+    "id": "11",
+    "name": "Hyundai Tucson",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "year": 2022,
+    "price": 28000,
+    "mileage": 14000,
+    "fuelType": "hybrid",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Hybrid powertrain", "All-wheel drive", "Panoramic sunroof"],
+    "tags": ["SUV", "hybrid"],
+    "description": "Efficient hybrid SUV with stylish design."
+  },
+  {
+    "id": "12",
+    "name": "Kia Sportage",
+    "brand": "Kia",
+    "model": "Sportage",
+    "year": 2023,
+    "price": 27000,
+    "mileage": 7000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Bold styling", "Advanced safety", "Warranty"],
+    "tags": ["SUV", "value"],
+    "description": "Value-packed SUV with bold looks."
+  },
+  {
+    "id": "13",
+    "name": "Subaru Outback",
+    "brand": "Subaru",
+    "model": "Outback",
+    "year": 2022,
+    "price": 32000,
+    "mileage": 11000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Symmetrical AWD", "Rugged design", "EyeSight safety"],
+    "tags": ["wagon", "adventure"],
+    "description": "Adventure-ready wagon with all-wheel drive."
+  },
+  {
+    "id": "14",
+    "name": "Mazda CX-5",
+    "brand": "Mazda",
+    "model": "CX-5",
+    "year": 2023,
+    "price": 30000,
+    "mileage": 9000,
+    "fuelType": "gas",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["G-Vectoring control", "Premium interior", "Turbo option"],
+    "tags": ["SUV", "driving-fun"],
+    "description": "SUV with engaging driving dynamics."
+  },
+  {
+    "id": "15",
+    "name": "Lexus RX",
+    "brand": "Lexus",
+    "model": "RX",
+    "year": 2022,
+    "price": 48000,
+    "mileage": 13000,
+    "fuelType": "hybrid",
+    "transmission": "auto",
+    "images": [
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=400&fit=crop&sat=-100"
+    ],
+    "features": ["Hybrid efficiency", "Luxury interior", "Mark Levinson audio"],
+    "tags": ["SUV", "luxury-hybrid"],
+    "description": "Luxury hybrid SUV with refined performance."
+  }
+]
