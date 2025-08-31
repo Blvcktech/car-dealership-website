@@ -13,13 +13,13 @@ export default function Shop() {
   const [fuelTypes, setFuelTypes] = useState<string[]>([]);
   const [transmissions, setTransmissions] = useState<string[]>([]);
   const [priceRange, setPriceRange] = useState<[number, number]>([
-    Math.min(...carsData.map((c) => c.price)),
-    Math.max(...carsData.map((c) => c.price)),
+    Math.min(...carsData.map((c: { price: number }) => c.price)),
+    Math.max(...carsData.map((c: { price: number }) => c.price)),
   ]);
   const [sort, setSort] = useState("newest");
 
   const filteredCars = useMemo(() => {
-    let result = carsData.filter(
+    const result = carsData.filter(
       (car) =>
         (brands.length === 0 || brands.includes(car.brand)) &&
         (fuelTypes.length === 0 || fuelTypes.includes(car.fuelType)) &&

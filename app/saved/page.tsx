@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Saved() {
-  const { wishlist, toggleWishlist } = useWishlist();
+  const { wishlist } = useWishlist();
   const savedCars = carsData.filter((car) => wishlist.includes(car.id));
 
   return (
@@ -57,8 +57,8 @@ export default function Saved() {
             </h2>
             
             <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-              Browse our inventory and save the cars you're interested in. 
-              They'll appear here for easy access later.
+              Browse our inventory and save the cars you&apos;re interested in. 
+              They&apos;ll appear here for easy access later.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

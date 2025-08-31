@@ -1,9 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import { 
   Car, 
   Users, 
@@ -11,11 +10,6 @@ import {
   Shield, 
   Heart, 
   Star, 
-  TrendingUp, 
-  MapPin,
-  Phone,
-  Mail,
-  Clock,
   CheckCircle,
   ThumbsUp,
   Target,
@@ -129,7 +123,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-xl text-blue-100 max-w-3xl mx-auto"
           >
-            For over 25 years, we've been helping families find their perfect vehicles with honesty, integrity, and exceptional service.
+            For over 25 years, we&apos;ve been helping families find their perfect vehicles with honesty, integrity, and exceptional service.
           </motion.p>
         </div>
       </section>
@@ -170,7 +164,7 @@ export default function About() {
               Founded in 1999 by Michael Topher, Topher Cars began as a small family-owned dealership with a simple mission: to make car buying honest, transparent, and enjoyable.
             </p>
             <p className="text-gray-600 mb-4">
-              What started as a single lot with 20 vehicles has grown into one of New York's most trusted automotive retailers, serving over 10,000 satisfied customers.
+              What started as a single lot with 20 vehicles has grown into one of New York&apos;s most trusted automotive retailers, serving over 10,000 satisfied customers.
             </p>
             <p className="text-gray-600 mb-6">
               Today, we continue to innovate while staying true to our founding principles of integrity, quality, and customer-first service.
@@ -273,7 +267,7 @@ export default function About() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Journey</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From humble beginnings to industry recognition, here's how we've grown over the years.
+              From humble beginnings to industry recognition, here&apos;s how we&apos;ve grown over the years.
             </p>
           </div>
           

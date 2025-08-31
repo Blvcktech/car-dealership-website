@@ -6,8 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
+
 import { toast } from "sonner";
 import { 
   Phone, 
@@ -136,7 +135,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle className="text-2xl">Send us a Message</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -186,7 +185,7 @@ export default function Contact() {
                         name="subject"
                         value={formData.subject}
                         onChange={handleInputChange}
-                        placeholder="What's this about?"
+                        placeholder="What&apos;s this about?"
                         required
                       />
                     </div>
@@ -292,7 +291,7 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Why Choose Topher Cars?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We're committed to providing the best car buying experience with exceptional service and quality vehicles.
+              We&apos;re committed to providing the best car buying experience with exceptional service and quality vehicles.
             </p>
           </div>
           

@@ -17,7 +17,7 @@ export default function FeaturedCars() {
     setImageErrors(prev => ({ ...prev, [carId]: true }));
   };
 
-  const getFallbackImage = (car: any) => {
+  const getFallbackImage = (car: { name: string }) => {
     // Return a gradient background as fallback
     return `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`;
   };

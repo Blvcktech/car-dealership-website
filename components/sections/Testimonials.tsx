@@ -103,7 +103,7 @@ export default function Testimonials() {
             <span className="block text-blue-600">Say About Us</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Hear from our satisfied customers who found their perfect vehicles with us.
+            Don&apos;t just take our word for it. Hear from our satisfied customers who found their perfect vehicles with us.
           </p>
         </motion.div>
 
@@ -155,7 +155,7 @@ export default function Testimonials() {
 
                   {/* Quote Text */}
                   <blockquote className="text-gray-700 leading-relaxed mb-6 italic">
-                    "{testimonial.quote}"
+                    &ldquo;{testimonial.quote}&rdquo;
                   </blockquote>
 
                   {/* Customer Info */}

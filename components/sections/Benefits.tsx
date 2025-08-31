@@ -27,7 +27,7 @@ export default function Benefits() {
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We're committed to providing exceptional service and ensuring you find the perfect vehicle.
+            We&apos;re committed to providing exceptional service and ensuring you find the perfect vehicle.
           </p>
         </motion.div>
         
